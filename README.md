@@ -1,8 +1,11 @@
-# Object-Detection
-The object of this project is to apply several machine learning algorithms used for object detection on both images and videos, with the purpose of making a comparison of different methods and exploring the applicability and performance of each algorithm.
+# Blood Cells Detection Using Faster R-CNN
 
-The image dataset is from Kaggle.com, which is a collaborative release of 9 million images annotated with image-level labels, object bounding boxes, object segmentation masks, and visual relationships. The links is: https://www.kaggle.com/c/open-images-2019-object-detection/data. And the videos are filmed by us.
+With the evolvement of malaria, different kinds of cells would present. So if we can tell which kind of cells they are by the image, we will know which stage the malaria infection is in. This project aims to detect the malaria infected cells in the images using Faster R-CNN.
 
-Several developed methods based on CNN are explored including R-CNN, Fast R-CNN, Faster R-CNN and Yolo.
+## Dataset
 
-Multiple indicators including IoU (intersection over union), AP and mAP score (average precision, mean average precision), and also Precision and Recall score are used to judge the performance of the network
+The link of dataset we use is [here](https://storage.googleapis.com/exam-deep-learning/train-Exam2.zip). This dataset contains a bunch of images, and their corresponding jason files, which include the coordinates of bounding boxes and labels.
+
+## Develope Faster R-CNN Model
+
+The paper we refer to is [Faster R-CNN](https://arxiv.org/pdf/1506.01497.pdf), and the link of implementation we use is [here](https://github.com/kbardool/keras-frcnn.git). Some predicted images we get are shown below. 
