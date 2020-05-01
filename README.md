@@ -5,6 +5,7 @@ With the evolvement of malaria, different kinds of cells would present. So if we
 ## Dataset
 
 The link of dataset we use is [here](https://storage.googleapis.com/exam-deep-learning/train-Exam2.zip). This dataset contains a bunch of images, and their corresponding jason files, which include the coordinates of bounding boxes and labels.
+![cells_1](https://github.com/danleiQ/Final-Project-Group3/blob/master/images/cells_1.png)
 
 ## Develope Faster R-CNN Model
 
